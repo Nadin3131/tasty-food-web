@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+
 /**
  * Created by nadin on 12/7/16.
  */
@@ -22,4 +23,5 @@ public class BaseController {
     logger.debug("Base Controller Test Method");
     return "Hello, World!";
   }
+
 }
